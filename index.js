@@ -25,7 +25,6 @@ const checkUserId = (request, response, next) => {
 
 app.get('/users', (request, response) => {
 
-    console.log('a rota foi chamada')
 
     return response.json(users)
 })
